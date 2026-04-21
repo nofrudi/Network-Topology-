@@ -80,7 +80,7 @@ Agar implementasi berjalan dengan baik, diperlukan:
 ## 6. Desain / Topologi Jaringan
 Topologi jaringan ditampilkan dalam bentuk dashboard untuk mempermudah administrator dalam melihat hubungan antar perangkat.
 
-![Network Topology](Network%20Topology%20Dashboard.jpg)
+![Network Topology](Topology.jpg)
 
 ---
 
