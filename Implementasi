@@ -1,0 +1,38 @@
+Langkah 1 - Persiapan
+- Menyiapkan server Zabbix
+- Menentukan Switch
+- Mengaktifkan SNMP pada perangkat
+- Melakukan uji koneksi
+
+### Langkah 2 - Konfigurasi Zabbix
+- Menambahkan host Switch
+- Mengatur SNMP interface
+- Menghubungkan template monitoring
+- Membuat item untuk traffic, uptime, dan availability
+
+### Langkah 3 - Pembuatan Dashboard
+Dashboard dibuat untuk menampilkan:
+- Status Switch online/offline
+- Traffic RX/TX
+- Uptime perangkat
+- Grafik penggunaan bandwidth
+
+## 7. Script / Konfigurasi
+
+### Contoh uji SNMP
+```bash
+nofrudi@zabix:~$ snmpwalk -v2c -c itview 172.16.10.90
+
+## Contoh Untuk Cek TX & RX 
+nofrudi@zabix:~$ snmpwalk -v2c -c ITadmin@1004 172.16.1.1 IF-MIB::ifDescr | grep                                                                                             -i vlan
+IF-MIB::ifDescr.132 = STRING: Vlan3
+IF-MIB::ifDescr.133 = STRING: Vlan4
+IF-MIB::ifDescr.134 = STRING: Vlan5
+IF-MIB::ifDescr.135 = STRING: Vlan6
+IF-MIB::ifDescr.136 = STRING: Vlan7
+IF-MIB::ifDescr.137 = STRING: Vlan8
+IF-MIB::ifDescr.138 = STRING: Vlan9
+IF-MIB::ifDescr.139 = STRING: Vlan10
+
+
+
