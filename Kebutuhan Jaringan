@@ -1,0 +1,5 @@
+
+- Server Zabbix bisa ping ke switch & Forti VM
+- Port SNMP UDP 161 terbuka
+- Community SNMP tersedia
+- IP address Switch & Firewall diketahui
