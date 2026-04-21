@@ -23,7 +23,7 @@ Dashboard dibuat untuk menampilkan:
 ```bash
 nofrudi@zabix:~$ snmpwalk -v2c -c itview 172.16.10.90
 
-## Contoh Untuk Cek TX & RX 
+## Contoh Untuk Cek TX & RX ( OID )
 nofrudi@zabix:~$ snmpwalk -v2c -c ITadmin@1004 172.16.1.1 IF-MIB::ifDescr | grep                                                                                             -i vlan
 IF-MIB::ifDescr.132 = STRING: Vlan3
 IF-MIB::ifDescr.133 = STRING: Vlan4
