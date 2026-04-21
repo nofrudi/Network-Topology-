@@ -1,0 +1,27 @@
+## 1. Latar Belakang
+Monitoring Switch di jaringan kantor masih dilakukan secara manual. 
+Hal ini menyebabkan keterlambatan dalam mengetahui perangkat yang down, 
+traffic yang tinggi, dan gangguan pada koneksi WiFi.
+
+## 2. Rumusan Masalah
+Beberapa masalah yang ditemukan dalam project ini:
+- Sulit mengetahui Switch yang offline
+- Tidak ada dashboard terpusat
+- Monitoring traffic masih manual
+- Troubleshooting memerlukan waktu lebih lama
+
+## 3. Tujuan Project
+Tujuan dari project ini adalah:
+- Membuat monitoring Switch secara terpusat
+- Menampilkan status online/offline Switch 
+- Menampilkan traffic jaringan
+- Mempermudah analisa gangguan jaringan
+
+## 4. Analisa Kebutuhan
+
+### Perangkat / Software
+- Server Zabbix
+- Switch yang mendukung SNMP
+- Switch / Router
+- Sistem operasi Linux
+- Browser untuk akses dashboard
